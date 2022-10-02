@@ -5,6 +5,18 @@ import java.sql.PreparedStatement;
 import java.util.random.*;
 import java.util.*;
 
+import java.util.Random;
+public class Quetion {
+	String Que;
+	String Ans;
+
+	public Quetion (String Que, String Ans){
+		this.Que=Que;
+		this.Ans=Ans;
+	}
+}
+
+
 public class Quiz1 {
 	
 	
@@ -194,13 +206,3 @@ public void TakeTest(Quetion []quetion) {
 }
 }
 
-import java.util.Random;
-public class Quetion {
-	String Que;
-	String Ans;
-
-	public Quetion (String Que, String Ans){
-		this.Que=Que;
-		this.Ans=Ans;
-	}
-	
